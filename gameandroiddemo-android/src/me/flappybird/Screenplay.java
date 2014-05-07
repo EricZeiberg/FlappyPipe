@@ -30,6 +30,14 @@ public class Screenplay implements Screen {
 		//Atlas2 = game.manager.get("data/smallpipe.txt", TextureAtlas.class);
 	}
 
+	public static Label getScore(){
+		return labelScore;
+	}
+
+	public static void setLabelText(String text){
+		labelScore.setText(text);
+	}
+
 	@Override
 	public void render(float delta) {
 		Gdx.gl.glClearColor(0, 0, 0, 1);

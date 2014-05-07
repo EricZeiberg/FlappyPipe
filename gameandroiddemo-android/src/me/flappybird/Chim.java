@@ -68,6 +68,8 @@ public class Chim extends Image {
 
 	public void hitMe() {
 		isDie = true;
+		String score = Screenplay.getScore().getText().toString();
+		//Screenplay.setLabelText("Your final score was " + score);
 		removeAction(curAction);
 		RotateToAction faceDown = new RotateToAction();
 		faceDown.setDuration(config.KjumpDura);
@@ -78,6 +80,7 @@ public class Chim extends Image {
 		moveDown.setInterpolation(Interpolation.sineIn);
 		curAction = new SequenceAction(faceDown, moveDown);
 		addAction(curAction);
+
 	}
 	
 	public void hitLand() {

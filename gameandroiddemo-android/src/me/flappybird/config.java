@@ -19,7 +19,7 @@ public class config {
 	
 	public static float KtimeAddPipe = 1.4f;
 	
-	public static float KholeBetwenPipe = 150;
+	public static float KholeBetwenPipe = 160;
 	
 	public static int random(int min, int max) {
 		Random random = new Random();
