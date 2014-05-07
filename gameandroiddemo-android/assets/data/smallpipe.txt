@@ -1,0 +1,11 @@
+smallpipe.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smallpipe
+  rotate: false
+  xy: 2, 2
+  size: 32, 142
+  orig: 32, 142
+  offset: 0, 0
+  index: -1
